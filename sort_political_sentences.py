@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-df = pd.read_csv('political_sentences3.csv')
+df = pd.read_csv('labeled_hausa_dataset.csv')
 
 
 df['label'] = df['label'].str.lower()
