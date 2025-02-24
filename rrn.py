@@ -27,7 +27,7 @@ X_train, X_val, y_train, y_val = train_test_split(padded_sequences, labels, test
 
 # Build the Model
 model = Sequential([
-    Embedding(input_dim=10000, output_dim=64, input_length=100),
+    Embedding(input_dim=[10]000, output_dim=64, input_length=100),
     LSTM(128, return_sequences=False),
     Dropout(0.5),
     Dense(64, activation='relu'),

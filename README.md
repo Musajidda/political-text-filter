@@ -19,7 +19,7 @@ Install dependencies:
 
 ```bash                                                                                                      
 pip install pandas
-
+pip install tensorflow
 
 How to Use
 Place your dataset (train.csv) in the same directory as the script.
